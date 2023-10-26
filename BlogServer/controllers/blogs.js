@@ -8,6 +8,15 @@ blogsRouter.get('/', (request, response) => {
         })
 })
 
+blogsRouter.get('/:url', (request, response, next) => {
+    const url = request.params.url
+
+    Blog.findOne({ 'url': url })
+        .then(result => {
+            console.log(result[0])
+        })
+})
+
 blogsRouter.post('/', (request, response) => {
     const blog = new Blog(request.body)
 
@@ -22,7 +31,7 @@ blogsRouter.delete('/:url', (request, response, next) => {
     const url = request.params.url
 
     // Not going to care which one is deleted lol
-    Blog.findOneAndDelete({ "url": url })
+    Blog.findOneAndDelete({ 'url': url })
         .then(result => {
             response.status(204).end()
         })
