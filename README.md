@@ -8,7 +8,14 @@ Might be better to use the REST extension than Postman -- for now
 
 ## 1. Structure of backend application, introduction to testing
 ### Project Structure
-Copied the course's completed Part 3 to practice structuring again.
+Each component is separated into controllers, models, requests, and utils.  
+**Controllers** defines the Router object and its functionalities.  
+**Models** define the MongoDB database schema.  
+**Requests** is a directory for various client requests.  
+**Utils** contains the middleware used and miscellanous environment variables. The middlware.js is the main controlling component while it calls upon others.  
+There also seems to be a distinction between the application module (app.js) and entry point (index.js).  
+You also seem to not have to include the route as it's managed in app.js by called .use('\<URL_Path\>', \<Router_Object\>).  
+The .env file must be at the root of the project directory
 ### Note on exports
     - Exercise 4.1 ✅
     - Exercise 4.2
