@@ -8,6 +8,7 @@ Might be better to use the REST extension than Postman -- for now
 
 ## 1. Structure of backend application, introduction to testing
 ### Project Structure
+Copied the course's completed Part 3 to practice structuring again.
 ### Note on exports
     - Exercise 4.1 ✅
     - Exercise 4.2
