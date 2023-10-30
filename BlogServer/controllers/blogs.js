@@ -45,6 +45,7 @@ blogsRouter.put('/:url', (request, response, next) => {
     // 3rd Parameter with { new: true } is required to get modified Obj
     Blog.findOneAndUpdate({ "url": url }, content, { new: true })
         .then(updatedBlog => {
+            console.log(updatedBlog)
             response.json(updatedBlog)
         })
         .catch(error => next(error))
