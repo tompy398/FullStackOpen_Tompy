@@ -18,7 +18,7 @@ You also seem to not have to include the route as it's managed in app.js by call
 The .env file must be at the root of the project directory
 ### Note on exports
     - Exercise 4.1 ✅
-    - Exercise 4.2
+    - Exercise 4.2 ✅
 Mongoose's findByIdAndRemove function for the DELETE protocol can't be used right now.
 Instead, it's better to use findOneAndDelete & findOneAndUpdate for now.
 
