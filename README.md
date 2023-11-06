@@ -6,7 +6,7 @@ More backend development concepts/implementation with MongoDB
 
 Might be better to use the REST extension than Postman -- for now  
 
-## 1. Structure of backend application, introduction to testing
+## a. Structure of backend application, introduction to testing
 ### Project Structure
 Each component is separated into controllers, models, requests, and utils.  
 **Controllers** defines the Router object and its functionalities.  
@@ -16,18 +16,18 @@ Each component is separated into controllers, models, requests, and utils.
 There also seems to be a distinction between the application module (app.js) and entry point (index.js).  
 You also seem to not have to include the route as it's managed in app.js by called .use('\<URL_Path\>', \<Router_Object\>).  
 The .env file must be at the root of the project directory
-### Note on exports
+### Note on exports 
     - Exercise 4.1 ✅
     - Exercise 4.2 ✅
 Mongoose's findByIdAndRemove function for the DELETE protocol can't be used right now.
 Instead, it's better to use findOneAndDelete & findOneAndUpdate for now.
 
 ### Testing Node Applications
-    - Exercise 4.3
-    - Exercise 4.4
-    - Exercise 4.5
-    - Exercise 4.6
-    - Exercise 4.7
-## 2. Testing the backend
-## 3. User administration
-## 4. Token authentication
+    - Exercise 4.3 ✅
+    - Exercise 4.4 ✅
+    - Exercise 4.5 ✅
+    - Exercise 4.6 ✅
+    - Exercise 4.7 ✅
+## b. Testing the backend
+## c. User administration
+## d. Token authentication
