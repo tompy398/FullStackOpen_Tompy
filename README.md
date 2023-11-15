@@ -1,5 +1,6 @@
 <!--- Reminder that Ctrl + Shift + V to Preview Markdown in VS Code -->
-<!--- Emoji for easy copy & paste: ✅ -->
+<!--- Emoji for easy copy & paste: ✅ 🔖 -->
+
 
 # Part 4
 More backend development concepts/implementation with MongoDB  
@@ -29,6 +30,6 @@ Instead, it's better to use findOneAndDelete & findOneAndUpdate for now.
     - Exercise 4.6 ✅
     - Exercise 4.7 ✅
 ## b. Testing the backend
-    Bookmark: Error handling and async/await
+    🔖 Bookmark: Error handling and async/await
 ## c. User administration
 ## d. Token authentication
