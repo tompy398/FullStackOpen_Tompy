@@ -29,5 +29,6 @@ Instead, it's better to use findOneAndDelete & findOneAndUpdate for now.
     - Exercise 4.6 ✅
     - Exercise 4.7 ✅
 ## b. Testing the backend
+    Bookmark: Error handling and async/await
 ## c. User administration
 ## d. Token authentication
